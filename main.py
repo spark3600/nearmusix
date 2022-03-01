@@ -35,8 +35,8 @@ from core.decorators import register, language, handle_error, only_admins
 
 REPO = """
 👨‍💻**Legend Music Player**👨‍💻
-- Repo: [GitHub](https://github.com/LEGEND-AI/LEGEND-MUSIC)
-- ⚜ [Owner](https://t.me/LegendBoy_XD) ⚜
+- Repo: [GitHub](https://google.com)
+- ⚜ [Owner](https://t.me/adi_xd) ⚜
 """
 
 
@@ -53,7 +53,7 @@ async def repo(_, message: Message):
 )
 @handle_error
 async def ping(_, message: Message):
-    await message.reply_text(f"📜 **Pong!**\n`{await pytgcalls.ping} ms`")
+    await message.reply_text(f"📜 **Bolo**\n`{await pytgcalls.ping} ms`")
 
 
 @app.on_message(
